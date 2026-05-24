@@ -2,7 +2,7 @@
 
 Free AI spend audit for startup engineering teams — find overspend on Cursor, Claude, ChatGPT, and more. Built for the [Credex](https://credex.rocks) Web Developer intern assignment (Round 1).
 
-**Live URL:** [https://spendlens-9erjjg6ph-sagar-kharbikar-s-projects.vercel.app](https://spendlens-9erjjg6ph-sagar-kharbikar-s-projects.vercel.app)
+**Live URL:** [https://spend-lens-puce.vercel.app/](https://spend-lens-puce.vercel.app/)
 
 **Demo video:** [Watch Demo](https://drive.google.com/drive/folders/17Ks4SX_kr31yOrd_KO_dxCNPuTYyYfES?usp=drive_link)
 
