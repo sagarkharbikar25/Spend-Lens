@@ -84,10 +84,10 @@ spendlens/
 
 ## Status
 
-- **Days 1–4:** ✅ Product MVP (form, engine, results, email, share)
-- **Day 5:** ✅ Docs + deploy guide + a11y polish — **deploy URL + Lighthouse on you**
-- **Day 6:** ✅ Supabase / Resend fix, documentation completion, final polish
-- **Day 7:** Deploy + live verification
+- **Day 1:** ✅ Product MVP (form, audit engine, UI scaffolding)
+- **Day 2:** ✅ Results page, email capture, and shareable URLs
+- **Day 3:** ✅ Documentation completion, UI/a11y polish, and bug fixes
+- **Day 4:** ⏳ Pending: Production deployment + final submission (Tomorrow)
 
 ## Deploy
 

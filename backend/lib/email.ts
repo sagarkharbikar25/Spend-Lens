@@ -1,13 +1,27 @@
 import { Resend } from "resend";
 import { formatCurrency } from "@/lib/utils";
 
+/**
+ * Parameters for sending an audit confirmation email.
+ */
 type AuditEmailParams = {
+  /** The recipient's email address */
   to: string;
+  /** Estimated monthly savings in USD */
   monthlySavings: number;
+  /** Whether the lead is flagged as high-value (> $500 savings) */
   isHighValue: boolean;
+  /** Unique shareable slug for the audit results, if generated */
   slug: string | null;
 };
 
+/**
+ * Sends a transactional confirmation email to the user with their audit summary.
+ * Uses the Resend API to deliver the email securely.
+ * 
+ * @param params Details of the audit to include in the email body.
+ * @returns An object indicating whether the email was sent, and any error message.
+ */
 export async function sendAuditConfirmationEmail(
   params: AuditEmailParams
 ): Promise<{ sent: boolean; error?: string }> {
@@ -47,6 +61,7 @@ export async function sendAuditConfirmationEmail(
   });
 
   if (error) {
+    console.error("Resend API Error:", error.message);
     return { sent: false, error: error.message };
   }
   return { sent: true };
