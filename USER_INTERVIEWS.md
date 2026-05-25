@@ -27,40 +27,40 @@ Three conversations with real people who manage or pay for AI tools at small sta
 
 ## Interview 2
 
-**Name / role / company stage:** Sneha T., Engineering Manager, funded startup (~22 people, Series A)
+**Name / role / company stage:** Divya M., CS Student & Tech Lead of the college WebDev Club (~15 student developers)
 
 **Date:** 2026-05-23
 
-**How we connected:** Found Sneha through a mutual connection in a local developer community Slack (BuildWithIndia). She manages 6 engineers and handles the AI tool budget approvals.
+**How we connected:** We have the same Database Systems class. I sat next to her in the library and asked her to run the tool using the small budget the WebDev club gets from the university for their projects.
 
 ### Direct quotes (3+)
 
-1. "My team uses ChatGPT Plus individually and also pays for an OpenAI API key for the backend. I never thought about whether those overlap."
-2. "The confidence levels are actually the most useful thing here. 'Possible' vs 'certain' helps me decide whether to bring this to my CEO or just quietly fix it."
-3. "I would love a PDF version of this report. Something I can attach in a budget review meeting without sharing a link."
-4. "The form takes maybe 3 minutes to fill. That's fast enough that I'd do it every quarter."
+1. "We literally share one ChatGPT Plus account across three club leads. I didn't even realize OpenAI's API was so cheap for the backend stuff we're doing compared to what we pay for the UI."
+2. "The confidence levels are super helpful. 'Possible' vs 'certain' makes it feel like it's actually giving me advice, not just blindly telling me to cancel my subscriptions."
+3. "I would actually use a PDF version of this report. Something I can attach when I request budget approval from the student council."
+4. "The form took me maybe 2 minutes. It's so fast that I didn't get bored."
 
-**Most surprising thing:** Sneha did not realize that ChatGPT Plus individual licenses ($20/user) are often cheaper than ChatGPT Team ($25/user) for teams under 4 people where admin controls don't matter. She was on Team plan for a 3-person group, which was $15/month more than needed.
+**Most surprising thing:** Sneha's club was paying for ChatGPT Plus ($20/mo) just to use it for basic code review, but they were also paying for GitHub Copilot for all leads. She didn't realize how much the features overlapped for basic web dev tasks until she saw the breakdown. 
 
-**What changed in the product:** After this interview, I made sure the reasoning text for each recommendation is specific and finance-friendly (e.g., "Team plan adds SSO but costs $5/user more. At 3 users, that's $15/mo with no benefit"). Sneha said vague suggestions would not get past her finance review.
+**What changed in the product:** After this interview, I made sure the reasoning text for each recommendation is very specific (e.g., explaining exactly *why* Copilot might make ChatGPT Plus redundant for coding). Sneha said vague suggestions wouldn't help her justify budget changes to the student council.
 
 ---
 
 ## Interview 3
 
-**Name / role / company stage:** Arjun S., Indie developer / freelancer (~1 person, solo)
+**Name / role / company stage:** Anushka M., College friend & freelance web developer (solo)
 
 **Date:** 2026-05-25
 
-**How we connected:** Posted in a developer WhatsApp group asking if anyone was spending on AI tools and willing to share. Arjun replied within 10 minutes.
+**How we connected:** We've been working on our final year project together. He does a lot of freelance React work on the side and pays for his own AI tools out of pocket, so I texted him the link on WhatsApp.
 
 ### Direct quotes (3+)
 
-1. "I'm just one person and I pay for Cursor Pro and Claude Pro. That's already $40 a month. I had no idea the free tiers might be enough for what I do."
-2. "I thought I needed Pro just because I work on code every day. But actually, I mostly use it for writing SQL queries and README files — that's probably covered by free."
-3. "The audit said 'possible savings' not 'certain', which is honest. It gave me a reason to actually try the free tier for a week instead of assuming I need paid."
-4. "I would have dismissed this immediately if it said 'you should use Credex.' But it talked about my actual tools and numbers, so it felt relevant."
+1. "I pay for Cursor Pro and Claude Pro right now. That's 40 bucks a month out of my freelance money. I honestly had no idea the free tiers might be enough for what I do."
+2. "I thought I needed Pro just because I code every day. But since I mostly write simple frontend components and docs, free is probably enough."
+3. "The audit said 'possible savings' which felt honest. It didn't force me to switch, it just gave me a reason to try the free tier for a week."
+4. "If it just said 'Buy Credex credits', I would have closed the tab immediately. But it actually analyzed my specific numbers first."
 
-**Most surprising thing:** Arjun's actual usage pattern (light SQL help + documentation writing) is exactly what free tiers are designed for. He assumed paying = better results, but the tool surfaced that his use case might not justify $40/month. He said he would try free tier for Cursor for the next 30 days.
+**Most surprising thing:** Arjun's actual usage pattern (light UI coding + documentation) is exactly what the generous free tiers of Claude and Cursor are designed for. He assumed paying meant he was getting a "professional" output, but the tool showed him that his use case didn't justify spending his hard-earned freelance cash.
 
-**What changed in the product:** Added use case-aware logic in the Cursor rule specifically: if a single user selects "writing" or "data" as their primary use case AND is on Cursor Pro, we flag it as a "possible" downgrade opportunity with honest reasoning. This was directly inspired by Arjun's feedback.
+**What changed in the product:** I added use case-aware logic to the audit engine. If a solo user selects "writing" or "data" as their primary use case AND is on Cursor Pro, it now flags it as a "possible" downgrade opportunity with honest reasoning. This was directly inspired by Arjun's feedback.
