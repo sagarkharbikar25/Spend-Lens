@@ -4,7 +4,7 @@ Free AI spend audit for startup engineering teams — find overspend on Cursor, 
 
 **Live URL:** [https://spendlens-9erjjg6ph-sagar-kharbikar-s-projects.vercel.app](https://spendlens-9erjjg6ph-sagar-kharbikar-s-projects.vercel.app)
 
-**Demo video:** [Watch Demo](https://drive.google.com/file/d/15UNEuDBOU1hovq888uyDOvCnl_tZP9m5/view?usp=sharing)
+**Demo video:** [Watch Demo](https://drive.google.com/drive/folders/17Ks4SX_kr31yOrd_KO_dxCNPuTYyYfES?usp=drive_link)
 
 ## What it does
 
