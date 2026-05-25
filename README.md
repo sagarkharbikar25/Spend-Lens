@@ -80,7 +80,6 @@ spendlens/
 | [DEVLOG.md](DEVLOG.md) | Daily build log |
 | [USER_INTERVIEWS.md](USER_INTERVIEWS.md) | 3 real interviews *(required)* |
 | [REFLECTION.md](REFLECTION.md) | Post-build reflection |
-| [docs/COMPLETION_PLAN.md](docs/COMPLETION_PLAN.md) | Development completion plan |
 
 ## Status
 
@@ -91,4 +90,4 @@ spendlens/
 
 ## Deploy
 
-See **[docs/DEPLOY.md](docs/DEPLOY.md)** for Vercel steps and env checklist.
+Deployed on Vercel. Ensure all environment variables from `.env.example` are configured in your Vercel project settings.

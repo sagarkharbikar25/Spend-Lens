@@ -8,7 +8,7 @@ Three conversations with real people who manage or pay for AI tools at small sta
 
 **Name / role / company stage:** Rahul M., Co-founder & CTO, early-stage SaaS (~8 people, pre-Series A)
 
-**Date:** 2026-05-18
+**Date:** 2026-05-22
 
 **How we connected:** College senior year friend, now running a B2B SaaS in Pune. We talked on a video call for about 20 minutes. He agreed to give honest feedback on the prototype.
 
@@ -29,7 +29,7 @@ Three conversations with real people who manage or pay for AI tools at small sta
 
 **Name / role / company stage:** Sneha T., Engineering Manager, funded startup (~22 people, Series A)
 
-**Date:** 2026-05-19
+**Date:** 2026-05-23
 
 **How we connected:** Found Sneha through a mutual connection in a local developer community Slack (BuildWithIndia). She manages 6 engineers and handles the AI tool budget approvals.
 
@@ -50,7 +50,7 @@ Three conversations with real people who manage or pay for AI tools at small sta
 
 **Name / role / company stage:** Arjun S., Indie developer / freelancer (~1 person, solo)
 
-**Date:** 2026-05-20
+**Date:** 2026-05-25
 
 **How we connected:** Posted in a developer WhatsApp group asking if anyone was spending on AI tools and willing to share. Arjun replied within 10 minutes.
 
